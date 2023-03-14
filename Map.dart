@@ -73,3 +73,21 @@
 //       print("Pos yang anda masukan tidak terdaftar");
 //     }
 // }
+
+import 'dart:io';
+
+void main(){
+  stdout.write("Mata pelajaran");
+  print('\n');
+  var hari = Map<int, String>();
+  hari[1]  = 'Senin';
+  hari[2]  = 'Selasa';
+  hari[3]  = 'Rabu';
+  hari[4]  = 'Kamis';
+  hari[5]  = "jum'at";
+  hari[6]  = 'Sabtu';
+  hari[7]  = 'Libur';
+
+  print(hari.);
+}
+
