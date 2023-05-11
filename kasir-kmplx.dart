@@ -80,7 +80,7 @@ void removeFromCart(Map<String, int> cart) {
     return;
   }
 
-  print('\nIsi keranjang:');
+  print('\nisi keranjang:');
   cart.forEach((product, quantity) => print('$product - $quantity'));
 
   stdout.write('Masukkan nama produk yang akan dihapus: ');
@@ -100,7 +100,7 @@ void viewCart(Map<String, int> cart, Map<String, int> products) {
     return;
   }
 
-  print('\nIsi keranjang:');
+  print('\nisi keranjang:');
   cart.forEach((product, quantity) {
     var price = products[product]!;
     var total = price * quantity;
